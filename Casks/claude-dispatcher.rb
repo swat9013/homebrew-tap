@@ -7,25 +7,25 @@ cask "claude-dispatcher" do
     end
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "16d2f371934d86f68c67c0cde1c7818702fd2e06054e7f39d4470f3811eeb953"
+      sha256 "f8050347dbf8fc920fb69ac1a91f642963a5b2849e2fc5257c744b587fe3b070"
       url "https://github.com/swat9013/claude-dispatcher/releases/download/v#{version}/claude-dispatcher_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "723f1a6dce1b6cc159ac0ef2d1ffe99e49b0007a7e6ea1029baffded29ecba28"
+      sha256 "689190dee1cc30a2787d2117b1e3204158db79b376c2559da8516933ad24475b"
       url "https://github.com/swat9013/claude-dispatcher/releases/download/v#{version}/claude-dispatcher_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5efd9f7b0c1a287d5027e549f2bbaf379cba4a6fe48218fb50793914f2390ba8"
+      sha256 "6122308ef0fd34f28c13a40112f5c49cca597d423b4734ef029e01a93e1c802a"
       url "https://github.com/swat9013/claude-dispatcher/releases/download/v#{version}/claude-dispatcher_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1856d6ad81e5f8ae4211ffd33414ab4b68386ba3574e4abbf39c91c9ce8db841"
+      sha256 "5da7837b6a5a8a956e4483d0ea2caf0afa5783dbb5b63f14049eebe019058de3"
       url "https://github.com/swat9013/claude-dispatcher/releases/download/v#{version}/claude-dispatcher_#{version}_linux_amd64.tar.gz"
     end
   end
